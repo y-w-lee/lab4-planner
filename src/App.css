@@ -1,0 +1,56 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  margin: 3rem;
+}
+
+.task-form {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.task-input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.save-btn {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin-left: 10px;
+  border-radius: 4px;
+}
+
+.save-btn:hover {
+  background-color: #45a049;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task-item label {
+  flex: 1;
+}
+
+.task-completed {
+  text-decoration: line-through;
+}
+
+.remove-btn {
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
