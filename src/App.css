@@ -1,6 +1,6 @@
 .app-container {
   font-family: Arial, sans-serif;
-  margin: 3rem;
+  margin: 5rem;
 }
 
 .task-form {
@@ -9,6 +9,7 @@
 }
 
 .task-input {
+  font-size: large;
   width: 300px;
   padding: 10px;
   border: 1px solid #ccc;
@@ -28,6 +29,21 @@
   background-color: #45a049;
 }
 
+.filter-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-buttons button {
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
 .task-list {
   list-style-type: none;
   padding: 0;
@@ -37,6 +53,12 @@
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+  font-size: larger;
+}
+
+.task-item input[type="checkbox"] {
+  transform: scale(1.5);
+  margin-right: 1.5rem; 
 }
 
 .task-item label {
